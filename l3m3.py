@@ -19,7 +19,7 @@ def main_page(page: ft.Page):
 
     text_hello = ft.Text('Hello', color=ft.Colors.RED)
     text_input = ft.TextField(label='Введите свое имя')
-    btn = ft.ElevatedButton('send', icon=ft.Icons.SEND, on_click=text_name)
+    btn = ft.Button('send', icon=ft.Icons.SEND, on_click=text_name)
 
     def themode(e):
         if page.theme_mode == ft.ThemeMode.DARK:
